@@ -1,0 +1,25 @@
+body{
+    background: aqua;
+}
+.rafqi{
+    color: white;
+}
+.p1{
+    color: orange;
+}
+h1{
+    font-family: Comic Sans MS;
+    color: darkblue;
+    text-align: center;
+}
+h4{
+    text-align: right;
+    font-family: Georgia;
+}
+
+p{
+    text-align: center;
+}
+.p2{
+    line-height: 2;
+}
