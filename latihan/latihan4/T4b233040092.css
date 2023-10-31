@@ -1,0 +1,261 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    position: relative;
+    color: black;
+    background-image: url(img/bgcr7.jpg);
+}
+
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: #124298;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.cr7 {
+    background-image: url(img/ronaldo.jpeg);
+    margin-top: 40px auto;
+    width: 100%;
+    height: 100%;
+}
+
+.topbar img {
+    z-index: 10;
+    margin: 5;
+    height: 40px;
+    left: -10px;
+    top: -1px;
+    position: absolute;
+}
+
+.badanisi .isi {
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    padding: 70px;
+}
+
+.badanisi {
+    width: 800px;
+    margin: 0px auto;
+    background-color: gray;
+    opacity: 0.9;
+}
+.home {
+    z-index: 1;
+    position: fixed;
+    font-size: 20px;
+    left: 80px;
+    top: 15px;
+    padding: 2px;
+}
+.home ul li{
+    display: inline-block;
+    font-family: arial;
+    font-weight: 500;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer {
+    color: white;
+    width: 100%;
+    height: 250px;
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ikuti {
+    position: relative;
+    top: 40px;
+    margin-left: 120px;
+}
+
+.footer .ikuti img {
+    position: relative;
+    width: 50px;
+    left: 0;
+    top: 40px;
+
+}
+.footer p{
+    position: relative;
+    top: 30px;
+    left: 45;
+    margin-top: 20px auto;
+
+}
+.footer .ikuti a{
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.sumber {
+    position: relative;
+    right: -400px;
+    top: -50px;
+    margin-right: 823px;
+}
+.artikel {
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 600px;
+}
+.tulisan {
+    font-weight: bold;
+}
+.p1 {
+    font-weight: bold;
+    position: relative;
+    
+}
+.layanan {
+    position: relative;
+    width: 360px;
+    height: 250px;
+    margin-left: 900px;
+    top: -197;
+
+}
+.p1 {
+    text-indent: 99px;
+}
+.sumber a {
+    text-decoration: none;
+    color: yellow;
+}
+
