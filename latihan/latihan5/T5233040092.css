@@ -1,6 +1,9 @@
 body span{
     font-family: Arial;
 }
+h1 {
+    color: white;
+}
 body h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -35,8 +38,10 @@ body {
     overflow: hiden;
     position: relative;
 }
+.gallery img {
+    border-radius: 50%;
+}
 .gallery li, 
-.gallery li img, 
 .gallery span    
              {
     border-radius: 50%;
@@ -66,13 +71,72 @@ body {
 div img {
     width: 150px;
 }
+/* overlay */
 
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 10;
+    transition: 1s;
+    text-align: center;
+    padding: 100px;
+}
+.overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay img {
+    max-height: 100%;
+    border-radius: 30px;
+    width: 400px;
+    box-shadow: 5px 5px 20px red;
+}
+.overlay:target img{
+    animation: zoomdanfade 1s;
+}
+.overlay .close {
+    position: absolute;
+    top: 60px;
+    right: 430px;
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    opacity: 0;
+}
 
+.overlay:target .close {
+    animation: slideclose .5s .5s forwards; 
+} 
+/* animasi */
+@keyframes zoomdanfade {
+    0% {
+        transform: scale(0);
+        opacity: (0);
+    }    
+    100% {
+        transform: scale(1);
+        opacity: (1);
+    }
+}
 
-
-
-
-
-
-
-
+@keyframes slideclose {
+    0% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+    
+}
