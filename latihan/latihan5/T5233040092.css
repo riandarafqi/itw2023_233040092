@@ -1,0 +1,78 @@
+body span{
+    font-family: Arial;
+}
+body h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 50px 0;
+    text-align: center;
+    text-shadow: 5px 5px 10px red;
+}
+body {
+    background-image: url(img/bgae.jpg);
+    background-position: -200px -300px;
+    min-height: 1000px;
+}
+.container {
+    width: 900px;
+    height: 200px;  
+    background-color: rgba(108, 0, 0, 0.4);
+    margin: 200px auto;
+    padding: 20px;
+    box-shadow: inset 3px 3px 10px red, inset -3px -3px 10px red;
+    border-radius: 25px;
+}
+.clear {
+    clear: both;
+}
+.gallery li {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgba(243, 3, 3, .3);
+    margin-right: 55px ;
+    overflow: hiden;
+    position: relative;
+}
+.gallery li, 
+.gallery li img, 
+.gallery span    
+             {
+    border-radius: 50%;
+
+}
+.gallery li span {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(200, 200, 200, 0.5);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150px;
+    color: #333;
+    text-shadow: 1px 1px 1px red;
+    opacity: 0;
+    transition: .5s;
+    transform: scale(0) rotate(0);
+}
+.gallery li a:hover span { 
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+div img {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -172,6 +172,10 @@ body {
     background-color: gray;
     opacity: 0.9;
 }
+h1 { 
+    text-shadow: 5px 5px 10px yellow;
+    font-weight: bold;
+}
 .home {
     z-index: 1;
     position: fixed;
@@ -189,6 +193,10 @@ body {
     text-decoration: none;
     color: white;
 
+}
+.home ul li a:hover{
+    color: yellow;
+    font-weight: bold;
 }
 .footer {
     color: white;
