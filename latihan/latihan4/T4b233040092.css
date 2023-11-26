@@ -103,6 +103,7 @@ section {
 
 body {
     line-height: 1;
+    overflow-x: hidden;
 }
 
 ol,
@@ -148,6 +149,7 @@ body {
     margin-top: 40px auto;
     width: 100%;
     height: 100%;
+    background-size: cover;
 }
 
 .topbar img {
